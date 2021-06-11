@@ -34,6 +34,7 @@ class MapViewController: UIViewController {
         topConstraint.isActive = true
         leadingConstraint.isActive = true
         trailingConstraint.isActive = true
+        
     }
     
     override func viewDidLoad() {
