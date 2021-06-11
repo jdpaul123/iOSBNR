@@ -21,7 +21,7 @@ extension UIColor {
             green: .random(),
             blue: .random(),
             alpha: 1.0
-        )ß
+        )
     }
 }
 // END GENERATING A RNADOM COLOR
