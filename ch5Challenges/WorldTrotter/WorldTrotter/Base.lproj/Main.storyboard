@@ -3,7 +3,6 @@
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -11,56 +10,6 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ConversionViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is really" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vbn-Nl-le0">
-                                <rect key="frame" x="138" y="194.66666666666666" width="114" height="43"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xco-Cd-fA8">
-                                <rect key="frame" x="136.66666666666666" y="245.66666666666663" width="117" height="84"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
-                                <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mf0-PJ-1wM">
-                                <rect key="frame" x="47.666666666666657" y="143.66666666666666" width="295" height="43"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="212" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPE-X7-Xdh">
-                                <rect key="frame" x="139.66666666666666" y="52.000000000000007" width="111" height="83.666666666666686"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
-                                <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Celsius" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hk2-fQ-S4a">
-                                <rect key="frame" x="72" y="337.66666666666669" width="246" height="43"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.96078431372549022" green="0.95686274509803915" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="VPE-X7-Xdh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="7fT-Ey-cUa"/>
-                            <constraint firstItem="Mf0-PJ-1wM" firstAttribute="centerX" secondItem="VPE-X7-Xdh" secondAttribute="centerX" id="936-Pd-Jej"/>
-                            <constraint firstItem="Xco-Cd-fA8" firstAttribute="top" secondItem="vbn-Nl-le0" secondAttribute="bottom" constant="8" id="DGC-xG-ZOE"/>
-                            <constraint firstItem="Hk2-fQ-S4a" firstAttribute="centerX" secondItem="VPE-X7-Xdh" secondAttribute="centerX" id="J9c-Nw-GOk"/>
-                            <constraint firstItem="Hk2-fQ-S4a" firstAttribute="top" secondItem="Xco-Cd-fA8" secondAttribute="bottom" constant="8" id="JIx-kx-td2"/>
-                            <constraint firstItem="vbn-Nl-le0" firstAttribute="top" secondItem="Mf0-PJ-1wM" secondAttribute="bottom" constant="8" id="KAA-OS-KJp"/>
-                            <constraint firstItem="Mf0-PJ-1wM" firstAttribute="top" secondItem="VPE-X7-Xdh" secondAttribute="bottom" constant="8" id="KGf-hH-ecm"/>
-                            <constraint firstItem="Xco-Cd-fA8" firstAttribute="centerX" secondItem="VPE-X7-Xdh" secondAttribute="centerX" id="N8a-Ih-rQe"/>
-                            <constraint firstItem="vbn-Nl-le0" firstAttribute="centerX" secondItem="VPE-X7-Xdh" secondAttribute="centerX" id="VOL-IT-De5"/>
-                            <constraint firstItem="VPE-X7-Xdh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jXT-2D-yKO"/>
-                        </constraints>
-                    </view>
                     <tabBarItem key="tabBarItem" title="Convert" image="ConvertIcon" id="TNV-Wz-U4Q"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
