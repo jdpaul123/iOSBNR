@@ -25,10 +25,10 @@ class Item: Equatable {
             let adjectives = ["Fluffy", "Rusty", "Shiny"]
             let nouns = ["Bear", "Spork", "Mac"]
             
-            let randomAdjective = adjectives.randomElement()
-            let randomNoun = nouns.randomElement()
+            let randomAdjective = adjectives.randomElement()!
+            let randomNoun = nouns.randomElement()!
             
-            let randomName = "\(String(describing: randomAdjective)) \(String(describing: randomNoun))"
+            let randomName = "\(randomAdjective) \(randomNoun)"
             let randomValue = Int.random(in: 0 ..< 100)
             let randomSerialNumber = UUID().uuidString.components(separatedBy: "-").first!
             

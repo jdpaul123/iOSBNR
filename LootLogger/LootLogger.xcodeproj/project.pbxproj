@@ -109,8 +109,8 @@
 				5227C141268956300068D8A1 /* Item.swift */,
 				5227C1432689A7B70068D8A1 /* ItemStore.swift */,
 				529E883926819DF200E36AC3 /* Main.storyboard */,
-				529E883C26819DF200E36AC3 /* Assets.xcassets */,
 				529E883E26819DF200E36AC3 /* LaunchScreen.storyboard */,
+				529E883C26819DF200E36AC3 /* Assets.xcassets */,
 				529E884126819DF200E36AC3 /* Info.plist */,
 			);
 			path = LootLogger;
